@@ -13,4 +13,10 @@ cd cnamefinder
 sudo chmod 700 cnamefinder.sh
 ./cnamefinder.sh
 ```
-
+Input file formatting:
+```
+subdomain.example.com
+subdomain2.example.org
+subdomain3.example.gov
+```
+(Also works for apex domains)
