@@ -46,4 +46,4 @@ while IFS= read -r subdomain; do
     fi
 done < "$input_file"
 
-echo "Dig output for subdomains with CNAME records has been saved to $output_file"
+echo "output for subdomains with CNAME records has been saved to $output_file"
